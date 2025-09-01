@@ -1,5 +1,3 @@
-
-
 # 🎯 Complete OWLv2 + SAM2 + Cutie Object Tracking Pipeline
 
 This repository demonstrates a **step-by-step Colab tutorial** for building a **powerful object tracking pipeline** combining:
@@ -48,6 +46,7 @@ Segment them (SAM2)
 Track across frames (Cutie)
 
 Save output video: output/tracked_video.mp4
+
 ## System Architecture Flow
 
 <img width="284" height="820" alt="Arch Flow" src="https://github.com/user-attachments/assets/9b6a93b8-d011-4fda-ad38-8c6e9531adea" /># Object-Tracking-Pipeline
@@ -96,6 +95,8 @@ Combines with OWLv2 + SAM2 to produce smooth, consistent tracked video
 
 ## 🎥 Videos
 Original Video
+[Original Video](output/basketball.mp4)  
+[Tracked Video](output/tracked_video.mp4)
 
 <video src="output/original_video.mp4" width="600" controls></video>
 
