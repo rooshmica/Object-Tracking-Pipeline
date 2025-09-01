@@ -93,19 +93,6 @@ Combines with OWLv2 + SAM2 to produce smooth, consistent tracked video
 
 <img width="1357" height="498" alt="Last_Frame_Output" src="https://github.com/user-attachments/assets/1f1f6e19-b2ca-4cd5-8e35-e07c41c021f2" />
 
-## 🎥 Videos
-Original Video
-[Original Video](output/basketball.mp4)  
-[Tracked Video](output/tracked_video.mp4)
-
-<video src="output/original_video.mp4" width="600" controls></video>
-
-## Tracked Output Video
-
-<video src="output/tracked_video.mp4" width="600" controls></video>
-
-If the video doesn’t play inline, click the file in the output/ folder to download and watch.
-
 ## 📋 Summary
 
 ✅ Detect objects using text queries (OWLv2)
