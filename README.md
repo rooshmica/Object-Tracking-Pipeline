@@ -1,4 +1,4 @@
-<img width="284" height="820" alt="Arch Flow" src="https://github.com/user-attachments/assets/9b6a93b8-d011-4fda-ad38-8c6e9531adea" /># Object-Tracking-Pipeline
+
 
 # 🎯 Complete OWLv2 + SAM2 + Cutie Object Tracking Pipeline
 
@@ -50,6 +50,8 @@ Track across frames (Cutie)
 Save output video: output/tracked_video.mp4
 ## System Architecture Flow
 
+<img width="284" height="820" alt="Arch Flow" src="https://github.com/user-attachments/assets/9b6a93b8-d011-4fda-ad38-8c6e9531adea" /># Object-Tracking-Pipeline
+
 ## 🛠️ How It Works
 1️⃣ **OWLv2 — Open-World Object Detection**
 
@@ -78,11 +80,19 @@ Handles occlusion, fast motion, and reappearance
 Combines with OWLv2 + SAM2 to produce smooth, consistent tracked video
 
 ## 📺 Example Results
-Original Frame
+**Original Frame from Video**
 
-OWLv2 + SAM2 Detection + Segmentation
+<img width="415" height="310" alt="Original_Frame_from_Video" src="https://github.com/user-attachments/assets/d6041175-efa5-4cb4-a5c4-5b8e8022573e" />
 
-Cutie Tracking Result
+**OWLv2 + SAM2 Detection + Segmentation**
+
+<img width="1233" height="488" alt="OWLV2+SAM2 Output" src="https://github.com/user-attachments/assets/1816e4e7-cf65-424c-8893-c8fee25325d2" />
+
+**Cutie Tracking Result**
+
+<img width="1333" height="486" alt="first_frame_output" src="https://github.com/user-attachments/assets/fd5c7601-5a5a-4cd7-b965-c4304c05d7e5" />
+
+<img width="1357" height="498" alt="Last_Frame_Output" src="https://github.com/user-attachments/assets/1f1f6e19-b2ca-4cd5-8e35-e07c41c021f2" />
 
 ## 🎥 Videos
 Original Video
