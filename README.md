@@ -48,7 +48,7 @@ Save output video: output/tracked_video.mp4
 
 ## System Architecture Flow
 
-<img width="284" height="820" alt="Arch Flow" src="https://github.com/user-attachments/assets/9b6a93b8-d011-4fda-ad38-8c6e9531adea" /># Object-Tracking-Pipeline
+<img width="284" height="820" alt="Arch Flow" src="https://github.com/user-attachments/assets/9b6a93b8-d011-4fda-ad38-8c6e9531adea" />
 
 ## 🛠️ How It Works
 1️⃣ **OWLv2 — Open-World Object Detection**
