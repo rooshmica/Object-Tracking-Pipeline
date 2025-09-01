@@ -1,4 +1,4 @@
-# Object-Tracking-Pipeline
+<img width="284" height="820" alt="Arch Flow" src="https://github.com/user-attachments/assets/9b6a93b8-d011-4fda-ad38-8c6e9531adea" /># Object-Tracking-Pipeline
 
 # 🎯 Complete OWLv2 + SAM2 + Cutie Object Tracking Pipeline
 
@@ -27,19 +27,17 @@ Run inside **Google Colab**:
 ```
 Cutie is automatically cloned and configured inside the notebook.
 
-##🎬 Usage
+## 🎬 Usage
 
-Upload your video to Colab or Google Drive
+### Upload your video to Colab or Google Drive
 
-Update the path in the notebook:
+**Update the path in the notebook:**
 
-**video_path** = "/content/drive/MyDrive/your-video.mp4"
+video_path = "/content/drive/MyDrive/your-video.mp4"
 
+**Set your detection text query:**
 
-Set your detection text query:
-
-**text_queries** = [["basketball", "ball"]]
-
+text_queries = [["basketball", "ball"]]
 
 Run the pipeline → It will:
 
@@ -50,6 +48,7 @@ Segment them (SAM2)
 Track across frames (Cutie)
 
 Save output video: output/tracked_video.mp4
+## System Architecture Flow
 
 ## 🛠️ How It Works
 1️⃣ **OWLv2 — Open-World Object Detection**
