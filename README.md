@@ -23,24 +23,3 @@ Run the following inside Google Colab:
 !pip install -q git+https://github.com/facebookresearch/sam2.git
 Cutie setup is handled automatically in the notebook.
 
-🎬 Usage
-
-Upload your video (either in Colab or Google Drive).
-
-Update the video_path in the notebook:
-
-video_path = "/content/drive/MyDrive/your-video.mp4"
-
-Change text_queries to detect your desired object(s):
-
-text_queries = [["basketball", "ball"]]
-
-Run the notebook to:
-
-Detect objects
-
-Create segmentation masks
-
-Track objects frame by frame
-
-Save the final tracked video (tracked_video.mp4)
