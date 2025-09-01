@@ -38,6 +38,7 @@ video_path = "/content/drive/MyDrive/your-video.mp4"
 text_queries = [["basketball", "ball"]]
 
 **Run the pipeline → It will:**
+
 Detect objects (OWLv2)
         |
 Segment them (SAM2)
